@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 # --- Configuration --- #
-MODEL_PATH = 'linear_regression_model.pkl'
+MODEL_PATH = 'linear_regression_model(2).pkl'
 ENCODERS_PATH = 'label_encoders.pkl'
 
 # --- App Title --- #
