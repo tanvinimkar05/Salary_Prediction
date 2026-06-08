@@ -8,7 +8,7 @@ MODEL_PATH = 'linear_regression_model.pkl'
 ENCODERS_PATH = 'label_encoders.pkl'
 
 # --- App Title --- #
-st.title("Salary Prediction App")
+st.title("Salary Prediction App (4)")
 
 # --- Load Model and Encoders --- #
 model = None
