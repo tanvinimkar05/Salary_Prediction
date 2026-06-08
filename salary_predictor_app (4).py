@@ -5,7 +5,7 @@ import os
 
 # --- Configuration --- #
 
-ENCODERS_PATH = 'label_encoders.pkl'
+MODEL_PATH = 'label_encoders.pkl'
 
 # --- App Title --- #
 st.title("Salary Prediction App (4)")
