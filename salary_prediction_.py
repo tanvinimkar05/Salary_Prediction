@@ -177,7 +177,6 @@ print("label_encoders.pkl saved successfully.")
 
 """First, let's make sure `streamlit` is installed."""
 
-!pip install streamlit -q
 
 """Now, let's recreate the `salary_predictor_app.py` file. This file contains the Streamlit application code that loads your model and encoders to make predictions."""
 
