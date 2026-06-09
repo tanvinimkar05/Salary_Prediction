@@ -270,7 +270,6 @@ print("label_encoders.pkl saved successfully.")
 
 """Finally, run the Streamlit app. After execution, look for a public URL in the output of the cell or as a link provided by Colab."""
 
-!streamlit run salary_predictor_app.py --server.port 8501 &>/dev/null&
 
 from google.colab import files
 files.download('requirements.txt')
