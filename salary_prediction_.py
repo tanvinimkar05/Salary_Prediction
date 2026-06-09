@@ -33,7 +33,7 @@ df.isnull().sum()
 
 label_encoders = {}
 for column in ['Education', 'Location', 'Job_Title', 'Gender']:
-    le = LabelEncoder()
+  
     df[column] = le.fit_transform(df[column])
     label_encoders[column] = le
 
