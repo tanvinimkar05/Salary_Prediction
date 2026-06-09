@@ -165,7 +165,7 @@ print(f"Model '{best_model_name}' saved successfully to {MODEL_PATH}")
 
 files.download(MODEL_PATH)
 
-!pip freeze > requirements.txt
+
 print("Generated requirements.txt")
 
 import pickle
