@@ -35,7 +35,7 @@ label_encoders = {}
 for column in ['Education', 'Location', 'Job_Title', 'Gender']:
   
   
-df.head()
+
 
 X = df.drop('Salary', axis=1)
 y = df['Salary']
