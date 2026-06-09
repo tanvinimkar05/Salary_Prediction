@@ -9,7 +9,8 @@ Original file is located at
 
 import pandas as pd
 
-!pip install scikit-learn -q
+pip install scikit-learn
+
 
 df=pd.read_csv("/salary_prediction_data.csv")
 df
