@@ -12,7 +12,7 @@ import pandas as pd
 
 
 
-df=pd.read_csv("/salary_prediction_data.csv")
+df=pd.read_csv("salary_prediction_data.csv")
 df
 
 df.info()
