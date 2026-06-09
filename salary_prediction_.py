@@ -30,7 +30,6 @@ for column in df.columns:
 
 df.isnull().sum()
 
-from sklearn.preprocessing import LabelEncoder
 
 label_encoders = {}
 for column in ['Education', 'Location', 'Job_Title', 'Gender']:
